@@ -1,0 +1,43 @@
+header {
+  text-align: center;
+  font-size: 24px;
+}
+
+.header-text {
+  text-align: right;
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+.left {
+  float: left;
+  width: 15%;
+  border-style: solid;
+  border-width: 1px;
+  height: 80vh;
+}
+
+.container {
+  float: left;
+  width: 69%;
+  border-style: solid;
+  border-width: 1px;
+  height: 80vh;
+}
+
+.right {
+  float: left;
+  width: 15%;
+  border-style: solid;
+  border-width: 1px;
+  height: 80vh;
+}
+
+.form-wrapper {
+  border-style: solid;
+  border-width: 1px;
+  margin: 10px 2% 2% 10px;
+}
