@@ -1,0 +1,45 @@
+body {
+    border: solid black 1px;
+    margin: 100px;
+    position: relative;
+}
+#ball {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+#scores {
+    position: absolute;
+    left: 45%;
+    font-size: 18px;
+}
+
+#position {
+    position: absolute;
+    left: 45%;
+    top: -5%;
+    font-size: 18px;
+}
+
+#bucket {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-image: url("bucket.jpg");
+}
+
+#real_bucket {
+    position: absolute;
+    top: 58%;
+    left: 25%;
+    width: 100px;
+    height: 55px;
+}
