@@ -5,8 +5,10 @@
   <meta charset="utf-8">
   <title> Кабинет </title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script> 
 </head>
 <body>
+	
   <header>
     <p>
       <img src="img/folder.png" width="25px">
@@ -32,18 +34,44 @@
   <div class="container">
     <div class="content-wrapper">
       <table>
-        
+		<thead>
+			<tr>
+			<th> <label onclick="sort(this)"> Файл  &#8595; </label> </th>
+				<th> <label onclick="sort(this)"> Размер Kb   &#8595; </label> </th>
+				<th>  <label onclick="sort(this)"> Дата и время   &#8595; </label></th>
+				<td> <href="#"> Удалить </a>
+			</tr>
+		</thead>
+		<tbody id="ttBody">
+
+		</tbody>
       </table>
+	  <div class="file-loader">
+		<label> Загрузить новый файл </label> <br />
+		<button id="btn-ch" >Выбрать</button>
+		<input type="text"  id="text-field"/> <br />
+	    <button id="btn-load" > Загрузить</button>  
+	  </div>
+	  
+	  <div class="remote-file-loader"> 
+		<label> Запросить с удаленного серврера: </label> <br />
+		<input type="text" id="text-field" /> <br />
+		<label> Поместить в хранилище </label> 
+		<input type="checkbox"/> <br />
+		<button> Запросить </button>
+	  </div>
     </div>
   </div>
 
   <div class="right">
     <div class="stats">
-      <b> Статистика: </b><br />
-      Пользователей: 123 <br />
-      Файлов: 1234 <br />
-      Обьем: 2345 Mb <br />
-      Обьем/польз.: 456 Mb <br />
+	  <p>
+		  <b> Статистика: </b><br />
+		  Пользователей: 123 <br />
+		  Файлов: 1234 <br />
+		  Обьем: 2345 Mb <br />
+		  Обьем/польз.: 456 Mb <br />
+	  </p>
     </div>
   </div>
 

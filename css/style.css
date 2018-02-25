@@ -22,8 +22,8 @@ footer {
   border-style: solid;
   border-width: 1px;
   height: 80vh;
-  background-image: url("../img/div.jpg");
-  background-repeat: no-repeat;
+  background-color: #d4d7db;
+  text-align: left;
 }
 
 .container {
@@ -32,7 +32,34 @@ footer {
   border-style: solid;
   border-width: 1px;
   height: 80vh;
+  position: relative;
 }
+
+.form-wrapper form {
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.form-wrapper {
+  border-style: solid;
+  border-width: 1px;
+  position: absolute;
+  top: 25px;
+  left: 50px;
+  width: 75%;
+  height: 15%;
+}
+
+.form-wrapper label {
+	margin: 10px auto;
+}
+
+.form-wrapper #login, #pass {
+	position: absolute;
+	left: 90px;
+}
+
+
 
 .right {
   float: left;
@@ -40,12 +67,81 @@ footer {
   border-style: solid;
   border-width: 1px;
   height: 80vh;
-  background-image: url("../img/div.jpg");
-  background-repeat: no-repeat;
+  background-color: #d4d7db;
 }
 
-.form-wrapper {
-  border-style: solid;
-  border-width: 1px;
-  margin: 10px 2% 2% 10px;
+.right p {
+	font-family: "Times New Roman";
+	font-style: normal;
+}
+
+
+.delete-label {
+  color:red;
+}
+
+.content-wrapper table {
+	border-spacing: 5px;
+}
+.content-wrapper table,tr,th {
+	border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.content-wrapper table,th {
+	text-align: center;
+}
+
+.content-wrapper table,tr {
+	text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.content-wrapper table {
+	width: 90%;
+	height: 10vh;
+	margin: 10px auto;
+}
+
+.content-wrapper button, label, #text-field {
+	width: 10%;
+	margin: 2px auto;
+	margin-left: 10px;
+}
+
+.file-loader #text-field {
+	width: 80%;
+}
+.remote-file-loader #text-field {
+	width: 95%;
+	margin-top: 5px;
+	margin-right: 50px;
+}
+
+.file-loader {
+	width: 90%;
+	height: 8vh;
+	margin: 10px auto;
+	position: relative;
+	top: 20px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.remote-file-loader {
+	position: relative;
+	top: 20px;
+	width: 90%;
+	height: 11vh;
+	margin: 10px auto;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.a sort-link {
+	color: black;
+	underline: none;
 }
